@@ -1,5 +1,13 @@
-class main{
-  public static void main{String [] args}{
-    System.out.println{"nisar ahmed"};
+import java.util.*;
+public class main {
+    public static void printmyname(String name){
+        System.out.println(name);
+        return;
+    }
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next();
+        printmyname(name);
+
+    }
   }
-}
